@@ -1,0 +1,96 @@
+.hidden {
+  display: none;
+}
+
+form#login-form {
+  text-align: center;
+}
+
+form#login-form input {
+  margin-top: 20px;
+  margin-left: center;
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#helloName {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(185, 162, 228);
+  text-shadow: 1px 1px 2px black;
+}
+
+body {
+  background: url("img/bg-dark-01.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+div#weather {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+h2#clock {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+}
+
+#next {
+  width: 5%;
+  top: 0;
+  bottom: 0;
+  opacity: 0.2;
+  position: absolute;
+  cursor: pointer;
+}
+
+#next:hover {
+  opacity: 1;
+}
+
+#next {
+  right: 0;
+}
+
+form#todo-form {
+  text-align: center;
+}
+
+input {
+  margin-top: 20px;
+  margin-left: center;
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 400px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+ul#todo-list li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #fbfafa;
+  font-size: 30px;
+  text-align: center;
+}
+
+::marker {
+  content: "";
+}
