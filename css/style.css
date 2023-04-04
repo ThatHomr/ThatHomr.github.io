@@ -70,16 +70,17 @@ h2#clock {
 form#todo-form {
   text-align: center;
 }
-
+input::placeholder {
+  color: gray;
+}
 input {
-  margin-top: 20px;
-  margin-left: center;
-  margin-bottom: 20px;
-  text-align: center;
-  box-sizing: border-box;
-  width: 400px;
+  background: #ecf0f3;
   padding: 10px;
-  border: 2px solid black;
+  padding-left: 20px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 30px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
 ul#todo-list li {
